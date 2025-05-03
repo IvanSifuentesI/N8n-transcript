@@ -1,18 +1,16 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "...",
+  "version": "...",
+  "description": "...",
+  "main": "index.js", // Asegúrate de que sea 'index.js' si ese es tu archivo principal
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js" // <-- ¡Esta línea es la clave!
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11",
-    "axios": "^1.9.0",
-    "express": "^5.1.0",
-    "youtube-transcript": "^1.2.1"
-  }
+    // ... tus dependencias ...
+  },
+  "engines": {
+     // ... tu configuración de node ...
+  },
+  // ... otros campos ...
 }
