@@ -1,16 +1,26 @@
 {
-  "name": "...",
-  "version": "...",
-  "description": "...",
-  "main": "index.js", // Asegúrate de que sea 'index.js' si ese es tu archivo principal
+  "name": "youtube-transcript-service",
+  "version": "1.0.0",
+  "description": "Servicio para obtener transcripciones de YouTube",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js" // <-- ¡Esta línea es la clave!
+    "start": "node index.js"
   },
   "dependencies": {
-    // ... tus dependencias ...
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "youtube-transcript": "^1.2.1"
   },
   "engines": {
-     // ... tu configuración de node ...
+    "node": "18.x || 20.x"
   },
-  // ... otros campos ...
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "transcript",
+    "transcription",
+    "n8n",
+    "api",
+    "express"
+  ]
 }
